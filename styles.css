@@ -60,7 +60,7 @@ body {
 }
 
 #home {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .heading-3 {
@@ -98,7 +98,6 @@ body {
 .intro {
     background-color: #3b6978;
     color: #cae8d5;
-    min-height: 100vh;
 }
 
 .heading-1 {
@@ -381,6 +380,7 @@ li {
     }
 
     .row,
+    .project,
     .card-area {
         flex-direction: column;
     }
@@ -429,14 +429,29 @@ li {
         background-image: linear-gradient(to bottom, #204051, #00030770);
 
     }
+
     .social-icon {
         font-size: 7rem;
         letter-spacing: 1.5rem;
     }
-    .contact h1{
-        font-size: 6rem;
+
+    .contact h1 {
+        font-size: 4rem;
     }
-    
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: initial;
+        height: 7rem;
+        font-size: 2.5rem;
+        box-sizing: border-box;
+        background-color: #1a252f;
+        text-align: center;
+        padding: 20px;
+    }
+
 }
 
 @media only screen and (min-device-width : 481) and (max-device-width: 992px) {
